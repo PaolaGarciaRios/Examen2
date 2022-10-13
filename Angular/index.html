@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="crud estudiantes">
+<head>
+<title ng-bind-template="Paola Garcia Rios | {{title}}"></title> 
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <base href="http://localhost/2022/angular/">     
+  <link rel="stylesheet" href="./app/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+<script src="./app/angular.js"></script>     
+<script src="./app/angular-router.js"></script>
+<script data-require="ui-bootstrap@*" data-semver="0.12.1" src="./app/bootstrpa-ui.js"></script>    
+<script src="./app/app.js"></script>
+<script src="./controllers/student_contrloer.js"></script>
+<script src="./app/jquery.js"></script>
+<script src="./app/bootstrpa-min.js"></script>
+</head>
+ 
+    <body>
+     
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index">Registros</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+<div class="container " > 
+    <div class="row content">
+
+          <div ui-view> .....</div>
+           </div>
+    
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Paola Garcia Rios - CIPEC</p>
+</footer>
+    
+</body>
+</html>
